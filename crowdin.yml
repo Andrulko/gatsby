@@ -1,0 +1,5 @@
+files:
+  - source: /docs/**/*.*
+    ignore:
+      - /docs/**/*.csv
+    translation: /docs/%locale%/**/%original_file_name%
